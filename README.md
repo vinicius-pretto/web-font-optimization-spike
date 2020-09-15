@@ -14,6 +14,33 @@
 
 ![Report initial](public/img/report-initial.png)
 
+2. Using font-display swap
+
+```
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Barlow Condensed Regular"), local("BarlowCondensed-Regular"),
+    url(https://fonts.gstatic.com/s/barlowcondensed/v5/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2lv0tKk.woff2)
+      format("woff2"),
+    url(https://fonts.gstatic.com/s/archivonarrow/v12/tss0ApVBdCYD5Q7hcxTE1ArZ0Yb0.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2RlV9Su1cai.woff)
+    format("woff");
+}
+```
+
+![Report initial](public/img/report-font-swap.png)
+
 ## Running application
 
 1. Install dependencies
