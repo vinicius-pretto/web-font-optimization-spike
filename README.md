@@ -41,6 +41,21 @@
 
 ![Report initial](public/img/report-font-swap.png)
 
+3. Preload fonts
+
+```
+  <link rel="preload"
+    href="https://fonts.gstatic.com/s/barlowcondensed/v5/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2lv0tKk.woff2" as="font"
+    type="font/woff2" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/archivonarrow/v12/tss0ApVBdCYD5Q7hcxTE1ArZ0Yb0.woff" as="font"
+    type="font/woff" crossorigin>
+  <link rel="preload"
+    href="https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2RlV9Su1cai.woff"
+    as="font" type="font/woff" crossorigin>
+```
+
+![Report initial](public/img/report-using-preload.png)
+
 ## Running application
 
 1. Install dependencies
