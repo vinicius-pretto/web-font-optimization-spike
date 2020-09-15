@@ -101,6 +101,7 @@ footer h3 {
 
 .footer-links {
   display: flex;
+  justify-content: space-between;
   margin-top: 2.5rem;
 }
 
@@ -111,7 +112,6 @@ footer h3 {
 .footer-links div {
   display: flex;
   flex-direction: column;
-  margin-right: 2.5rem;
 }
 
 .footer-links div a {
@@ -131,6 +131,7 @@ footer h3 {
   .footer-links {
     margin-top: 0;
     margin-left: 11rem;
+    flex-basis: 20%;
   }
 
   .footer-links div {
