@@ -16,6 +16,7 @@
       format("woff2"),
     url(https://fonts.gstatic.com/s/archivonarrow/v12/tss0ApVBdCYD5Q7hcxTE1ArZ0Yb0.woff)
       format("woff");
+  unicode-range: U+0000-00FF;
 }
 
 @font-face {
@@ -25,6 +26,7 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2RlV9Su1cai.woff)
     format("woff");
+  unicode-range: U+0000-00FF;
 }
 
 html {

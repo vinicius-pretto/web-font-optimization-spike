@@ -56,6 +56,14 @@
 
 ![Report initial](public/img/report-using-preload.png)
 
+4. Add unicode-range
+
+```
+unicode-range: U+0000-00FF;
+```
+
+![Report initial](public/img/report-unicode-range.png)
+
 ## Running application
 
 1. Install dependencies
